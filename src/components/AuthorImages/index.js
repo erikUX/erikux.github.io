@@ -1,1 +1,0 @@
-export { AuthorImages } from "./AuthorImages";
