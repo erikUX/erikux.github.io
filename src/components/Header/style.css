@@ -1,0 +1,143 @@
+.header {
+  align-items: center;
+  background-color: #ffffff;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+}
+
+.header .div-2 {
+  align-items: center;
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.header .headline-subhead {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.header .headline-subhead-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+}
+
+.header .interaction-design {
+  color: var(--black);
+  margin-top: -1px;
+  position: relative;
+}
+
+.header .portfolio-erik {
+  color: #0596ff;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 600;
+  letter-spacing: 0;
+  position: relative;
+}
+
+.header .and-i-made-it-myself {
+  color: #2d2d2d;
+  font-family: "Epilogue", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 27px;
+  position: relative;
+}
+
+.header .image {
+  height: 100%;
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+}
+
+.header.property-desktop {
+  flex-direction: column;
+  left: 20px;
+  padding: 100px;
+}
+
+.header.property-mobile {
+  left: 1350px;
+  padding: 50px 30px 60px;
+}
+
+.header.property-desktop .div-2 {
+  display: flex;
+  gap: 28px;
+  width: 1080px;
+}
+
+.header.property-mobile .div-2 {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.header.property-desktop .headline-subhead {
+  gap: 40px;
+}
+
+.header.property-mobile .headline-subhead {
+  gap: 20px;
+}
+
+.header.property-desktop .headline-subhead-2 {
+  gap: 40px;
+}
+
+.header.property-mobile .headline-subhead-2 {
+  gap: 24px;
+}
+
+.header.property-desktop .interaction-design {
+  font-family: var(--subtitle-font-family);
+  font-size: var(--subtitle-font-size);
+  font-style: var(--subtitle-font-style);
+  font-weight: var(--subtitle-font-weight);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--subtitle-line-height);
+  width: 557px;
+}
+
+.header.property-mobile .interaction-design {
+  font-family: "Epilogue", Helvetica;
+  font-size: 19px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 30px;
+  text-align: center;
+  width: 315px;
+}
+
+.header.property-desktop .portfolio-erik {
+  font-size: 80px;
+  line-height: 90px;
+  width: 557px;
+}
+
+.header.property-mobile .portfolio-erik {
+  font-size: 59px;
+  line-height: normal;
+  text-align: center;
+  width: 315px;
+}
+
+.header.property-desktop .and-i-made-it-myself {
+  width: 557px;
+}
+
+.header.property-mobile .and-i-made-it-myself {
+  text-align: center;
+  width: 315px;
+}

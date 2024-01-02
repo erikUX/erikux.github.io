@@ -1,0 +1,1 @@
+export { AuthorImages } from "./AuthorImages";

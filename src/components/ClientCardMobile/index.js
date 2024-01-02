@@ -1,0 +1,1 @@
+export { ClientCardMobile } from "./ClientCardMobile";
