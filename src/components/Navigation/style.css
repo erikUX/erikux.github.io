@@ -1,0 +1,98 @@
+.navigation {
+  background-color: #ffffff;
+  height: 80px;
+  position: relative;
+  top: 20px;
+}
+
+.navigation .nav-nav-menu {
+  height: 28px;
+  left: 785px;
+  position: absolute;
+  top: 26px;
+  width: 450px;
+}
+
+.navigation .text-wrapper-5 {
+  color: var(--black);
+  font-family: "Epilogue", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  height: 28px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.navigation .text-wrapper-6 {
+  color: var(--black);
+  font-family: "Epilogue", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  height: 28px;
+  left: 236px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.navigation .text-wrapper-7 {
+  color: var(--black);
+  font-family: "Epilogue", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  height: 28px;
+  left: 376px;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.navigation .logo-instance {
+  left: 50px !important;
+  position: absolute !important;
+  top: 25px !important;
+}
+
+.navigation .icon-envelope-square {
+  display: block;
+  height: 32px;
+  left: 205px;
+  position: absolute;
+  top: 25px;
+  width: 32px;
+}
+
+.navigation .icon-alternate-phone-2 {
+  height: 32px;
+  left: 264px;
+  position: absolute;
+  top: 25px;
+  width: 32px;
+}
+
+.navigation .icon-social-linkedin {
+  display: block;
+  height: 32px;
+  left: 323px;
+  position: absolute;
+  top: 25px;
+  width: 32px;
+}
+
+.navigation.property-5-desktop {
+  left: 20px;
+  width: 1280px;
+}
+
+.navigation.property-5-mobile {
+  left: 1350px;
+  width: 374px;
+}

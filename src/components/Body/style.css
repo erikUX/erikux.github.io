@@ -1,0 +1,139 @@
+.body {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  position: relative;
+  top: 20px;
+}
+
+.body .body-text {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  position: relative;
+}
+
+.body .text {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 60px;
+  position: relative;
+  width: 100%;
+}
+
+.body .title {
+  align-self: stretch;
+  color: #2d2d2d;
+  font-family: "Epilogue", Helvetica;
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: 42px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.body .div {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 40px;
+  position: relative;
+  width: 100%;
+}
+
+.body .colored-text {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 10px;
+  padding: 5px 0px;
+  position: relative;
+  width: 100%;
+}
+
+.body .paragraph {
+  color: #2d2d2d;
+  flex: 1;
+  font-family: "Epilogue", Helvetica;
+  font-size: 17px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 27px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.body .work-cards-mobile {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.body .work-card-instance {
+  flex: 0 0 auto !important;
+  left: unset !important;
+  top: unset !important;
+}
+
+.body .instance-node {
+  background-color: unset !important;
+  object-fit: cover !important;
+}
+
+.body .stripe {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 67.5px;
+  position: relative;
+}
+
+.body.desktop {
+  left: 20px;
+  padding: 120px 320px;
+  width: 1280px;
+}
+
+.body.mobile {
+  left: 1350px;
+  padding: 120px 30px;
+  width: 375px;
+}
+
+.body.desktop .body-text {
+  align-items: center;
+  justify-content: center;
+  margin-left: -220px;
+  margin-right: -220px;
+  width: 1080px;
+}
+
+.body.mobile .body-text {
+  align-items: flex-start;
+  align-self: stretch;
+  width: 315px;
+}
+
+.body.desktop .work-cards-mobile {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: 10px;
+  padding: 5px 0px;
+  width: 100%;
+}
+
+.body.mobile .work-cards-mobile {
+  align-items: center;
+  display: inline-flex;
+  flex-direction: column;
+  gap: 60px;
+}
