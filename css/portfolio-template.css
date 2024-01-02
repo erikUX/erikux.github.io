@@ -1,0 +1,877 @@
+/* screen - portfolio-template */
+
+.portfolio-template {
+  align-items: center;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: 12064px;
+  position: relative;
+}
+
+.portfolio-template .header-section {
+  background-color: var(--white);
+  gap: -27px 0px;
+  height: 357px;
+  padding: 0px 24px 0px 19px;
+  width: 1242px;
+}
+
+.portfolio-template .header-content {
+  gap: 48px 48px;
+  height: 177px;
+  max-width: 620px;
+  width: 395px;
+}
+
+.portfolio-template .title-subtitle {
+  border-radius: 105px;
+  gap: 24px;
+  height: 92px;
+  width: 158px;
+}
+
+.portfolio-template .img_1232-1 {
+  height: 202px;
+  margin-bottom: -110.00px;
+  position: relative;
+  width: 141px;
+}
+
+.portfolio-template .text {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 27px;
+  margin-bottom: -214.00px;
+  position: relative;
+  text-align: center;
+}
+
+.portfolio-template .header-content-1 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  justify-content: center;
+  margin-left: -27px;
+  max-width: 620px;
+  position: relative;
+  width: 486px;
+}
+
+.portfolio-template .title-subtitle-1 {
+  align-items: flex-start;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 460px;
+}
+
+.portfolio-template .portfolio-erik-kuiper {
+  color: var(--azure-radiance);
+  font-family: var(--font-family-epilogue);
+  font-size: 29px;
+  font-weight: 600;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: -12.00px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 472px;
+}
+
+.portfolio-template .interaction-design {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 30px;
+  margin-right: -15.00px;
+  position: relative;
+  text-align: center;
+  width: 475px;
+}
+
+.portfolio-template .with-my-eye-for-deta {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 27px;
+  margin-right: -15.00px;
+  position: relative;
+  text-align: center;
+  width: 475px;
+}
+
+.portfolio-template .header-image-1 {
+  flex: 1;
+  flex-grow: 1;
+  height: 360px;
+  margin-bottom: -1.50px;
+  margin-left: -27px;
+  margin-top: -1.50px;
+  max-width: 480px;
+  min-width: 320px;
+  position: relative;
+}
+
+.portfolio-template .gallery-section {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  height: 1055px;
+  padding: 42px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.portfolio-template .cards-section {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  position: relative;
+  width: 100%;
+}
+
+.portfolio-template .cards-section-item {
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 24px;
+  min-width: 320px;
+}
+
+.portfolio-template .image {
+  align-self: stretch;
+  height: 330px;
+  position: relative;
+  width: 100%;
+}
+
+.portfolio-template .title-description {
+  align-self: stretch;
+  flex: 0 0 auto;
+  gap: 8px;
+  width: 100%;
+}
+
+.portfolio-template .project-title {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.portfolio-template .ui-art-drection {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+}
+
+.portfolio-template .component-10 {
+  align-items: center;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.portfolio-template .image-1 {
+  align-self: stretch;
+  cursor: pointer;
+  height: 330px;
+  position: relative;
+  width: 100%;
+}
+
+.portfolio-template .gallery-section-1 {
+  gap: 23px;
+  height: 1020px;
+}
+
+.portfolio-template .chatbot-european-commission {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 42px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.portfolio-template .as-a-ux-designer-i-w {
+  color: var(--black);
+  font-weight: 400;
+  height: 76px;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+  width: 1220px;
+}
+
+.portfolio-template .cards-section-1 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: 37px 24px;
+  height: 693px;
+  width: 100%;
+}
+
+.portfolio-template .screenshot-2023-12-04-at-151 {
+  height: 683px;
+  object-fit: cover;
+  position: relative;
+  width: 385px;
+}
+
+.portfolio-template .result-the-chatbot {
+  margin-bottom: -40.00px;
+}
+
+.portfolio-template .component-13 {
+  align-items: flex-start;
+  margin-bottom: -130.00px;
+}
+
+.portfolio-template .gallery-section-2 {
+  gap: 22px;
+  height: 1109px;
+}
+
+.portfolio-template .digital-signage-ing {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 42px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.portfolio-template .atos-had-a-large-dig {
+  color: var(--black);
+  font-weight: 400;
+  height: 76px;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+  width: 1220px;
+}
+
+.portfolio-template .cards-section-2 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  height: 724px;
+  width: 100%;
+}
+
+.portfolio-template .cards-section-item-1 {
+  height: 702px;
+  width: 395px;
+}
+
+.portfolio-template .x03-1 {
+  height: 695px;
+  object-fit: cover;
+  position: relative;
+  width: 391px;
+}
+
+.portfolio-template .gallery-section-3 {
+  gap: 27px;
+  height: 1090px;
+}
+
+.portfolio-template .travel-app {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 42px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.portfolio-template .the-ministry-of-fore {
+  color: var(--black);
+  font-weight: 400;
+  height: 76px;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+  width: 1220px;
+}
+
+.portfolio-template .cards-section-3 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  height: 701px;
+  width: 100%;
+}
+
+.portfolio-template .cards-section-item-2 {
+  height: 701px;
+  width: 394px;
+}
+
+.portfolio-template .bz03-1 {
+  height: 701px;
+  object-fit: cover;
+  position: relative;
+  width: 396px;
+}
+
+.portfolio-template .the-current-version {
+  color: transparent;
+  font-weight: 400;
+  height: 33px;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+  width: 1220px;
+}
+
+.portfolio-template .span0-1 {
+  color: var(--black);
+}
+
+.portfolio-template .span1-1 {
+  color: var(--azure-radiance);
+  text-decoration: underline;
+}
+
+.portfolio-template .gallery-section-4 {
+  gap: 27px;
+  height: 1094px;
+}
+
+.portfolio-template .gamification-health-app {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 42px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.portfolio-template .change-kitchen-wanted {
+  color: var(--black);
+  font-weight: 400;
+  height: 53px;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+  width: 1220px;
+}
+
+.portfolio-template .cards-section-4 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  height: 759px;
+  width: 100%;
+}
+
+.portfolio-template .home-01-1 {
+  height: 700px;
+  object-fit: cover;
+  position: relative;
+  width: 394px;
+}
+
+.portfolio-template .achievements-nummer-niet-op-coin-01-2 {
+  height: 701px;
+  object-fit: cover;
+  position: relative;
+  width: 395px;
+}
+
+.portfolio-template .community-01-1 {
+  height: 700px;
+  object-fit: cover;
+  position: relative;
+  width: 395px;
+}
+
+.portfolio-template .result {
+  color: var(--black);
+  font-weight: 400;
+  height: 16px;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: 1220px;
+}
+
+.portfolio-template .gallery-section-5 {
+  gap: 27px;
+  height: 1133px;
+}
+
+.portfolio-template .vrar-at-the-workplace {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 42px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.portfolio-template .from-start-to-delive {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+  width: 1220px;
+}
+
+.portfolio-template .cards-section-5 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  height: 758px;
+  width: 100%;
+}
+
+.portfolio-template .hoco-1 {
+  height: 709px;
+  object-fit: cover;
+  position: relative;
+  width: 1232px;
+}
+
+.portfolio-template .result-3-d-augmented {
+  color: var(--black);
+  font-weight: 400;
+  height: 33px;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+  width: 1220px;
+}
+
+.portfolio-template .gallery-section-6 {
+  gap: 23px;
+  height: 1395px;
+}
+
+.portfolio-template .kpn-web-app {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 42px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.portfolio-template .kpn-wanted-to-comple {
+  color: var(--black);
+  font-weight: 400;
+  height: 76px;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+  width: 1220px;
+}
+
+.portfolio-template .cards-section-6 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  height: 1015px;
+  width: 100%;
+}
+
+.portfolio-template .tr225tr234tr235tr237 {
+  height: 997px;
+  object-fit: cover;
+  position: relative;
+  width: 1232px;
+}
+
+.portfolio-template .result-in-the-end-o {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+  width: 1220px;
+}
+
+.portfolio-template .gallery-section-7 {
+  gap: 27px;
+  height: 1391px;
+}
+
+.portfolio-template .serious-game {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 42px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.portfolio-template .sns-reaal-asked-atos {
+  color: var(--black);
+  font-weight: 400;
+  height: 53px;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+  width: 1220px;
+}
+
+.portfolio-template .cards-section-7 {
+  align-self: stretch;
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  height: 1032px;
+  width: 100%;
+}
+
+.portfolio-template .screenshot_10inch_scherm2-1 {
+  height: 982px;
+  object-fit: cover;
+  position: relative;
+  width: 593px;
+}
+
+.portfolio-template .screenshot_10inch_scherm3-1 {
+  height: 982px;
+  object-fit: cover;
+  position: relative;
+  width: 614px;
+}
+
+.portfolio-template .logo-bar {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 86px 68px;
+  height: 318px;
+  justify-content: space-between;
+  padding: 42px 68px;
+  position: relative;
+  width: 100%;
+}
+
+.portfolio-template .ec {
+  height: 97px;
+  object-fit: cover;
+  position: relative;
+  width: 139px;
+}
+
+.portfolio-template .ing {
+  height: 66px;
+  object-fit: cover;
+  position: relative;
+  width: 142px;
+}
+
+.portfolio-template .bz {
+  height: 96px;
+  object-fit: cover;
+  position: relative;
+  width: 168px;
+}
+
+.portfolio-template .ck {
+  height: 45px;
+  object-fit: cover;
+  position: relative;
+  width: 183px;
+}
+
+.portfolio-template .kpn {
+  height: 91px;
+  object-fit: cover;
+  position: relative;
+  width: 162px;
+}
+
+.portfolio-template .testimonial-section {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  gap: 42px;
+  height: 1706px;
+  padding: 42px 24px;
+  width: 100%;
+}
+
+.portfolio-template .testimonial {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 42px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.portfolio-template .testimonial-card {
+  align-items: flex-start;
+  background-color: var(--grey);
+  flex: 1;
+  flex-grow: 1;
+  gap: 68px;
+  min-width: 320px;
+  padding: 42px;
+}
+
+.portfolio-template .this-is-a-template-f {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+}
+
+.portfolio-template .client-image-info {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.portfolio-template .client-image {
+  height: 50px;
+  object-fit: cover;
+  position: relative;
+  width: 50px;
+}
+
+.portfolio-template .client-info-stars {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 11px;
+  position: relative;
+}
+
+.portfolio-template .name-company {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+}
+
+.portfolio-template .gemma-nolen {
+  align-self: stretch;
+  color: transparent;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+}
+
+.portfolio-template .span0 {
+  color: var(--azure-radiance);
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.portfolio-template .span1 {
+  letter-spacing: 0;
+}
+
+.portfolio-template .google {
+  align-self: stretch;
+  color: var(--black);
+  font-weight: 400;
+  line-height: 27px;
+  position: relative;
+}
+
+.portfolio-template .gemma-nolen-1 {
+  align-self: stretch;
+  color: var(--azure-radiance);
+  cursor: pointer;
+  font-weight: 600;
+  line-height: 30px;
+  margin-top: -1.00px;
+  position: relative;
+  text-decoration: underline;
+}
+
+.portfolio-template .google-1 {
+  align-self: stretch;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+}
+
+.portfolio-template .span0-2 {
+  line-height: 30px;
+}
+
+.portfolio-template .span1-2 {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.portfolio-template .title {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 42px;
+  position: relative;
+  text-align: center;
+  width: 1232px;
+}
+
+.portfolio-template .contact-info {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 42px;
+  height: 99px;
+  position: relative;
+  width: 771px;
+}
+
+.portfolio-template .i-would-like-to-go-i {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 27px;
+  margin-right: -26.00px;
+  margin-top: -1.00px;
+  position: relative;
+  text-align: center;
+  width: 797px;
+}
+
+.portfolio-template .erikkuiperoutlookcom {
+  color: var(--azure-radiance);
+  cursor: pointer;
+  font-weight: 400;
+  height: 26px;
+  line-height: 14.5px;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  width: 798px;
+}
+
+.portfolio-template .phone {
+  color: var(--azure-radiance);
+  font-weight: 400;
+  line-height: 14.5px;
+  position: relative;
+  text-align: center;
+  width: 798px;
+}
+
+.portfolio-template .linked-incomin-erik-ux {
+  color: var(--azure-radiance);
+  cursor: pointer;
+  font-weight: 400;
+  height: 21px;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+  text-decoration: underline;
+  white-space: nowrap;
+  width: 798px;
+}
+
+.portfolio-template .cards-section-8 {
+  align-items: flex-start;
+  display: flex;
+  position: relative;
+}
+
+.portfolio-template .cards-section-item-3 {
+  object-fit: cover;
+  position: relative;
+}
+
+.portfolio-template .component {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 24px;
+  min-width: 320px;
+  position: relative;
+}
+
+.portfolio-template .gallery-section-8 {
+  align-items: center;
+  align-self: stretch;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  padding: 42px 24px 57px;
+  position: relative;
+  width: 100%;
+}
+
+.portfolio-template .header {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  position: relative;
+}
+
+.portfolio-template .result-the {
+  color: var(--black);
+  font-weight: 400;
+  line-height: 27px;
+  position: relative;
+  text-align: center;
+  width: 1220px;
+}
+
+.portfolio-template .testimonial-1 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.portfolio-template .title-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}

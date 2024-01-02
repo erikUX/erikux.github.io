@@ -1,1 +1,0 @@
-export { ElementPxPortfolio } from "./ElementPxPortfolio";
