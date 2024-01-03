@@ -253,6 +253,7 @@
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
+  margin-bottom: -40.25px;
 }
 
 .portfolio-template .client-image {
@@ -293,6 +294,17 @@
   line-height: 27px;
 }
 
+.portfolio-template .client-image-info-2 {
+  margin-bottom: -10.25px;
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
 .portfolio-template .gemma-nolen {
   position: relative;
   align-self: stretch;
@@ -306,7 +318,7 @@
   font-style: var(--subtitle-font-style);
 }
 
-.portfolio-template .client-image-info-2 {
+.portfolio-template .client-image-info-3 {
   display: flex;
   align-items: flex-start;
   gap: 16px;
@@ -314,11 +326,10 @@
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  margin-bottom: -15px;
 }
 
 .portfolio-template .contact-section {
-  height: 141px;
+  height: 147px;
   gap: 24px;
   padding: 42px 24px 86px;
   align-self: stretch;
@@ -334,7 +345,7 @@
   position: relative;
   width: 626px;
   margin-top: -1px;
-  margin-bottom: -28px;
+  margin-bottom: -22px;
   font-family: var(--h2-font-family);
   font-weight: var(--h2-font-weight);
   color: var(--black);
@@ -345,15 +356,15 @@
 }
 
 .portfolio-template .contact-section-2 {
-  display: flex;
   flex-wrap: wrap;
-  align-items: flex-start;
   gap: 142px 42px;
+  flex: 0 0 auto;
+  margin-bottom: -74px;
+  display: flex;
+  align-items: flex-start;
   position: relative;
   align-self: stretch;
   width: 100%;
-  flex: 0 0 auto;
-  margin-bottom: -80px;
 }
 
 .portfolio-template .contact-info {
@@ -391,7 +402,7 @@
 }
 
 .portfolio-template .frame {
-  height: 35px;
+  height: 31px;
   display: flex;
   align-items: center;
   gap: 24px;
@@ -444,4 +455,31 @@
   font-size: 17px;
   letter-spacing: 0;
   line-height: 27px;
+}
+
+.portfolio-template .contact-section-3 {
+  flex-direction: column;
+  height: 99px;
+  gap: 24px;
+  padding: 42px 24px 86px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.portfolio-template .lets-work-together {
+  position: relative;
+  width: 626px;
+  margin-top: -1px;
+  margin-bottom: -70px;
+  font-family: var(--h2-font-family);
+  font-weight: var(--h2-font-weight);
+  color: var(--black);
+  font-size: var(--h2-font-size);
+  letter-spacing: var(--h2-letter-spacing);
+  line-height: var(--h2-line-height);
+  font-style: var(--h2-font-style);
 }
