@@ -1,6 +1,7 @@
 .portfolio-template {
   display: flex;
   flex-direction: column;
+  min-height: 100vh;
   align-items: center;
   position: relative;
   background-color: #ffffff;
@@ -9,7 +10,6 @@
 .portfolio-template .header-section {
   flex-wrap: wrap;
   align-items: center;
-  justify-content: center;
   gap: 68px 42px;
   padding: 42px 24px;
   align-self: stretch;
@@ -25,6 +25,7 @@
   min-width: 320px;
   max-width: 620px;
   align-items: flex-start;
+  justify-content: center;
   gap: 48px;
   flex: 1;
   flex-grow: 1;
@@ -55,7 +56,7 @@
   line-height: 30px;
 }
 
-.portfolio-template .visual-designer {
+.portfolio-template .portfolio-erik {
   position: relative;
   align-self: stretch;
   font-family: var(--h1-font-family);
@@ -106,10 +107,7 @@
 
 .portfolio-template .headerimage {
   position: relative;
-  flex: 1;
-  min-width: 320px;
-  max-width: 480px;
-  flex-grow: 1;
+  width: 257px;
   height: 360px;
 }
 
@@ -120,21 +118,22 @@
   gap: 42px;
   padding: 42px 24px;
   position: relative;
+  flex: 1;
   align-self: stretch;
   width: 100%;
-  flex: 0 0 auto;
+  flex-grow: 1;
   background-color: var(--white);
 }
 
-.portfolio-template .latest-work {
+.portfolio-template .text-wrapper-3 {
   position: relative;
-  width: fit-content;
+  align-self: stretch;
+  height: 42px;
   margin-top: -1px;
   font-family: "Epilogue", Helvetica;
   font-weight: 600;
   color: #2d2d2d;
   font-size: 32px;
-  text-align: center;
   letter-spacing: 0;
   line-height: 42px;
   white-space: nowrap;
@@ -146,20 +145,19 @@
   align-items: flex-start;
   gap: 24px 24px;
   position: relative;
+  flex: 1;
   align-self: stretch;
   width: 100%;
-  flex: 0 0 auto;
+  flex-grow: 1;
 }
 
 .portfolio-template .div-3 {
   display: flex;
   flex-direction: column;
-  min-width: 320px;
+  width: 394.67px;
   align-items: flex-start;
   gap: 24px;
   position: relative;
-  flex: 1;
-  flex-grow: 1;
 }
 
 .portfolio-template .image {
@@ -181,7 +179,7 @@
   flex: 0 0 auto;
 }
 
-.portfolio-template .project-title {
+.portfolio-template .text-wrapper-4 {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
@@ -206,15 +204,15 @@
   font-style: var(--body-text-font-style);
 }
 
-.portfolio-template .testimonial {
+.portfolio-template .text-wrapper-5 {
   position: relative;
-  width: fit-content;
+  align-self: stretch;
+  height: 42px;
   margin-top: -1px;
   font-family: var(--h2-font-family);
   font-weight: var(--h2-font-weight);
   color: var(--black);
   font-size: var(--h2-font-size);
-  text-align: center;
   letter-spacing: var(--h2-letter-spacing);
   line-height: var(--h2-line-height);
   white-space: nowrap;
@@ -224,13 +222,12 @@
 .portfolio-template .testimonial-card {
   display: flex;
   flex-direction: column;
-  min-width: 320px;
+  width: 394.67px;
   align-items: flex-start;
   gap: 68px;
   padding: 42px;
   position: relative;
-  flex: 1;
-  flex-grow: 1;
+  align-self: stretch;
   background-color: #fffcf5;
   border: 1px solid;
   border-color: #ffd285;
@@ -265,23 +262,79 @@
   object-fit: cover;
 }
 
-.portfolio-template .contact-section {
+.portfolio-template .client-info-stars {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 24px;
-  padding: 42px 24px 86px;
+  gap: 11px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.portfolio-template .name-company {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  background-color: #ffffff;
 }
 
-.portfolio-template .text-wrapper-3 {
+.portfolio-template .google {
+  position: relative;
+  align-self: stretch;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.portfolio-template .gemma-nolen {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--subtitle-font-family);
+  font-weight: var(--subtitle-font-weight);
+  color: #2d2d2d;
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--subtitle-line-height);
+  font-style: var(--subtitle-font-style);
+}
+
+.portfolio-template .client-image-info-2 {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-bottom: -15px;
+}
+
+.portfolio-template .contact-section {
+  height: 141px;
+  gap: 24px;
+  padding: 42px 24px 86px;
+  align-self: stretch;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .text-wrapper-6 {
   position: relative;
   width: 626px;
   margin-top: -1px;
+  margin-bottom: -28px;
   font-family: var(--h2-font-family);
   font-weight: var(--h2-font-weight);
   color: var(--black);
@@ -289,4 +342,106 @@
   letter-spacing: var(--h2-letter-spacing);
   line-height: var(--h2-line-height);
   font-style: var(--h2-font-style);
+}
+
+.portfolio-template .contact-section-2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 142px 42px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-bottom: -80px;
+}
+
+.portfolio-template .contact-info {
+  min-width: 320px;
+  gap: 42px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .this-is-a-template-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 42px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.portfolio-template .p {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 400;
+  color: #2d2d2d;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.portfolio-template .frame {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0px 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.portfolio-template .text-wrapper-7 {
+  position: relative;
+  flex: 1;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 400;
+  color: #0596ff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.portfolio-template .div-wrapper {
+  height: 34px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0px 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.portfolio-template .frame-2 {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 0px 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.portfolio-template .text-wrapper-8 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 400;
+  color: #0596ff;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 27px;
 }
