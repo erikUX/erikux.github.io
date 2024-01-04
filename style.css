@@ -1,239 +1,18 @@
-.portfolio-template {
+.testimonial-card {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  align-items: center;
-  position: relative;
-  background-color: #ffffff;
-}
-
-.portfolio-template .header-section {
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 68px 42px;
-  padding: 42px 24px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  background-color: #ffffff;
-  display: flex;
-  position: relative;
-}
-
-.portfolio-template .header-content {
-  flex-direction: column;
-  min-width: 320px;
-  max-width: 620px;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 48px;
-  flex: 1;
-  flex-grow: 1;
-  display: flex;
-  position: relative;
-}
-
-.portfolio-template .title-subtitle {
-  gap: 24px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.portfolio-template .text-wrapper {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1px;
-  font-family: "Epilogue", Helvetica;
-  font-weight: 600;
-  color: #2d2d2d;
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 30px;
-}
-
-.portfolio-template .portfolio-erik {
-  position: relative;
-  align-self: stretch;
-  font-family: var(--h1-font-family);
-  font-weight: var(--h1-font-weight);
-  color: #0596ff;
-  font-size: var(--h1-font-size);
-  letter-spacing: var(--h1-letter-spacing);
-  line-height: var(--h1-line-height);
-  font-style: var(--h1-font-style);
-}
-
-.portfolio-template .div {
-  position: relative;
-  align-self: stretch;
-  font-family: "Epilogue", Helvetica;
-  font-weight: 400;
-  color: var(--black);
-  font-size: 17px;
-  letter-spacing: 0;
-  line-height: 27px;
-}
-
-.portfolio-template .button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 24px 64px;
-  position: relative;
-  flex: 0 0 auto;
-  background-color: #0596ff;
-  border-radius: 10px;
-}
-
-.portfolio-template .text-wrapper-2 {
-  position: relative;
-  width: fit-content;
-  margin-top: -1px;
-  font-family: "Epilogue", Helvetica;
-  font-weight: 600;
-  color: var(--white);
-  font-size: 20px;
-  text-align: center;
-  letter-spacing: 0;
-  line-height: 30px;
-  white-space: nowrap;
-}
-
-.portfolio-template .headerimage {
-  position: relative;
-  width: 257px;
-  height: 360px;
-}
-
-.portfolio-template .div-2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 42px;
-  padding: 42px 24px;
-  position: relative;
-  flex: 1;
-  align-self: stretch;
-  width: 100%;
-  flex-grow: 1;
-  background-color: var(--white);
-}
-
-.portfolio-template .text-wrapper-3 {
-  position: relative;
-  align-self: stretch;
-  height: 42px;
-  margin-top: -1px;
-  font-family: "Epilogue", Helvetica;
-  font-weight: 600;
-  color: #2d2d2d;
-  font-size: 32px;
-  letter-spacing: 0;
-  line-height: 42px;
-  white-space: nowrap;
-}
-
-.portfolio-template .cards-section {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 24px 24px;
-  position: relative;
-  flex: 1;
-  align-self: stretch;
-  width: 100%;
-  flex-grow: 1;
-}
-
-.portfolio-template .div-3 {
-  display: flex;
-  flex-direction: column;
-  width: 394.67px;
-  align-items: flex-start;
-  gap: 24px;
-  position: relative;
-}
-
-.portfolio-template .image {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 330px;
-  object-fit: cover;
-}
-
-.portfolio-template .title-description {
-  gap: 8px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.portfolio-template .text-wrapper-4 {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1px;
-  font-family: var(--subtitle-font-family);
-  font-weight: var(--subtitle-font-weight);
-  color: var(--black);
-  font-size: var(--subtitle-font-size);
-  letter-spacing: var(--subtitle-letter-spacing);
-  line-height: var(--subtitle-line-height);
-  font-style: var(--subtitle-font-style);
-}
-
-.portfolio-template .UI-art-drection {
-  position: relative;
-  align-self: stretch;
-  font-family: var(--body-text-font-family);
-  font-weight: var(--body-text-font-weight);
-  color: #2d2d2d;
-  font-size: var(--body-text-font-size);
-  letter-spacing: var(--body-text-letter-spacing);
-  line-height: var(--body-text-line-height);
-  font-style: var(--body-text-font-style);
-}
-
-.portfolio-template .text-wrapper-5 {
-  position: relative;
-  align-self: stretch;
-  height: 42px;
-  margin-top: -1px;
-  font-family: var(--h2-font-family);
-  font-weight: var(--h2-font-weight);
-  color: var(--black);
-  font-size: var(--h2-font-size);
-  letter-spacing: var(--h2-letter-spacing);
-  line-height: var(--h2-line-height);
-  white-space: nowrap;
-  font-style: var(--h2-font-style);
-}
-
-.portfolio-template .testimonial-card {
-  display: flex;
-  flex-direction: column;
-  width: 394.67px;
+  width: 395px;
+  height: 567px;
   align-items: flex-start;
   gap: 68px;
   padding: 42px;
   position: relative;
-  align-self: stretch;
   background-color: #fffcf5;
   border: 1px solid;
   border-color: #ffd285;
 }
 
-.portfolio-template .this-is-a-template {
+.testimonial-card .this-is-a-template {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
@@ -245,7 +24,7 @@
   line-height: 30px;
 }
 
-.portfolio-template .client-image-info {
+.testimonial-card .client-image-info {
   display: flex;
   align-items: flex-start;
   gap: 16px;
@@ -253,17 +32,17 @@
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  margin-bottom: -40.25px;
+  margin-bottom: -32px;
 }
 
-.portfolio-template .client-image {
+.testimonial-card .client-image {
   position: relative;
   width: 50px;
   height: 50px;
   object-fit: cover;
 }
 
-.portfolio-template .client-info-stars {
+.testimonial-card .client-info-stars {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -273,7 +52,7 @@
   flex-grow: 1;
 }
 
-.portfolio-template .name-company {
+.testimonial-card .name-company {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -283,7 +62,20 @@
   flex: 0 0 auto;
 }
 
-.portfolio-template .google {
+.testimonial-card .gemma-nolen {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--subtitle-font-family);
+  font-weight: var(--subtitle-font-weight);
+  color: var(--black);
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--subtitle-line-height);
+  font-style: var(--subtitle-font-style);
+}
+
+.testimonial-card .google {
   position: relative;
   align-self: stretch;
   font-family: "Epilogue", Helvetica;
@@ -292,194 +84,4 @@
   font-size: 15px;
   letter-spacing: 0;
   line-height: 27px;
-}
-
-.portfolio-template .client-image-info-2 {
-  margin-bottom: -10.25px;
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.portfolio-template .gemma-nolen {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1px;
-  font-family: var(--subtitle-font-family);
-  font-weight: var(--subtitle-font-weight);
-  color: #2d2d2d;
-  font-size: var(--subtitle-font-size);
-  letter-spacing: var(--subtitle-letter-spacing);
-  line-height: var(--subtitle-line-height);
-  font-style: var(--subtitle-font-style);
-}
-
-.portfolio-template .client-image-info-3 {
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.portfolio-template .contact-section {
-  height: 147px;
-  gap: 24px;
-  padding: 42px 24px 86px;
-  align-self: stretch;
-  width: 100%;
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-}
-
-.portfolio-template .text-wrapper-6 {
-  position: relative;
-  width: 626px;
-  margin-top: -1px;
-  margin-bottom: -22px;
-  font-family: var(--h2-font-family);
-  font-weight: var(--h2-font-weight);
-  color: var(--black);
-  font-size: var(--h2-font-size);
-  letter-spacing: var(--h2-letter-spacing);
-  line-height: var(--h2-line-height);
-  font-style: var(--h2-font-style);
-}
-
-.portfolio-template .contact-section-2 {
-  flex-wrap: wrap;
-  gap: 142px 42px;
-  flex: 0 0 auto;
-  margin-bottom: -74px;
-  display: flex;
-  align-items: flex-start;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-}
-
-.portfolio-template .contact-info {
-  min-width: 320px;
-  gap: 42px;
-  flex: 1;
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-}
-
-.portfolio-template .this-is-a-template-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 42px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.portfolio-template .p {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1px;
-  font-family: "Epilogue", Helvetica;
-  font-weight: 400;
-  color: #2d2d2d;
-  font-size: 17px;
-  letter-spacing: 0;
-  line-height: 27px;
-}
-
-.portfolio-template .frame {
-  height: 31px;
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  padding: 0px 24px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-}
-
-.portfolio-template .text-wrapper-7 {
-  position: relative;
-  flex: 1;
-  font-family: "Epilogue", Helvetica;
-  font-weight: 400;
-  color: #0596ff;
-  font-size: 17px;
-  letter-spacing: 0;
-  line-height: 27px;
-}
-
-.portfolio-template .div-wrapper {
-  height: 34px;
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  padding: 0px 24px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-}
-
-.portfolio-template .frame-2 {
-  flex: 0 0 auto;
-  display: flex;
-  align-items: center;
-  gap: 24px;
-  padding: 0px 24px;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-}
-
-.portfolio-template .text-wrapper-8 {
-  position: relative;
-  flex: 1;
-  margin-top: -1px;
-  font-family: "Epilogue", Helvetica;
-  font-weight: 400;
-  color: #0596ff;
-  font-size: 17px;
-  letter-spacing: 0;
-  line-height: 27px;
-}
-
-.portfolio-template .contact-section-3 {
-  flex-direction: column;
-  height: 99px;
-  gap: 24px;
-  padding: 42px 24px 86px;
-  background-color: #ffffff;
-  display: flex;
-  align-items: flex-start;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-}
-
-.portfolio-template .lets-work-together {
-  position: relative;
-  width: 626px;
-  margin-top: -1px;
-  margin-bottom: -70px;
-  font-family: var(--h2-font-family);
-  font-weight: var(--h2-font-weight);
-  color: var(--black);
-  font-size: var(--h2-font-size);
-  letter-spacing: var(--h2-letter-spacing);
-  line-height: var(--h2-line-height);
-  font-style: var(--h2-font-style);
 }
