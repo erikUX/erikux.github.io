@@ -1,4 +1,224 @@
-.testimonial-card {
+.portfolio-template {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.portfolio-template .header-section {
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 68px 42px;
+  padding: 42px 24px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  display: flex;
+  position: relative;
+}
+
+.portfolio-template .header-content {
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 620px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 48px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  position: relative;
+}
+
+.portfolio-template .title-subtitle {
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.portfolio-template .text-wrapper {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 600;
+  color: #2d2d2d;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 30px;
+}
+
+.portfolio-template .portfolio-erik {
+  position: relative;
+  align-self: stretch;
+  font-family: var(--h1-font-family);
+  font-weight: var(--h1-font-weight);
+  color: #0596ff;
+  font-size: var(--h1-font-size);
+  letter-spacing: var(--h1-letter-spacing);
+  line-height: var(--h1-line-height);
+  font-style: var(--h1-font-style);
+}
+
+.portfolio-template .div {
+  position: relative;
+  align-self: stretch;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.portfolio-template .button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 24px 64px;
+  position: relative;
+  flex: 0 0 auto;
+  background-color: #0596ff;
+  border-radius: 10px;
+}
+
+.portfolio-template .text-wrapper-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 600;
+  color: var(--white);
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 30px;
+  white-space: nowrap;
+}
+
+.portfolio-template .headerimage {
+  position: relative;
+  width: 257px;
+  height: 360px;
+}
+
+.portfolio-template .div-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 42px;
+  padding: 42px 24px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+  background-color: var(--white);
+}
+
+.portfolio-template .text-wrapper-3 {
+  position: relative;
+  align-self: stretch;
+  height: 42px;
+  margin-top: -1px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 600;
+  color: #2d2d2d;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: 42px;
+  white-space: nowrap;
+}
+
+.portfolio-template .cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 24px 24px;
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.portfolio-template .div-3 {
+  display: flex;
+  flex-direction: column;
+  width: 394.67px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+}
+
+.portfolio-template .image {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 330px;
+  object-fit: cover;
+}
+
+.portfolio-template .title-description {
+  gap: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.portfolio-template .text-wrapper-4 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--subtitle-font-family);
+  font-weight: var(--subtitle-font-weight);
+  color: var(--black);
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--subtitle-line-height);
+  font-style: var(--subtitle-font-style);
+}
+
+.portfolio-template .UI-art-drection {
+  position: relative;
+  align-self: stretch;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 400;
+  color: #2d2d2d;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.portfolio-template .text-wrapper-5 {
+  position: relative;
+  align-self: stretch;
+  height: 42px;
+  margin-top: -1px;
+  font-family: var(--h2-font-family);
+  font-weight: var(--h2-font-weight);
+  color: var(--black);
+  font-size: var(--h2-font-size);
+  letter-spacing: var(--h2-letter-spacing);
+  line-height: var(--h2-line-height);
+  white-space: nowrap;
+  font-style: var(--h2-font-style);
+}
+
+.portfolio-template .testimonial-card {
   display: flex;
   flex-direction: column;
   width: 395px;
@@ -12,7 +232,7 @@
   border-color: #ffd285;
 }
 
-.testimonial-card .this-is-a-template {
+.portfolio-template .this-is-a-template {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
@@ -24,7 +244,82 @@
   line-height: 30px;
 }
 
-.testimonial-card .client-image-info {
+.portfolio-template .client-image-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.portfolio-template .client-image {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.portfolio-template .client-info-stars {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 11px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.portfolio-template .name-company {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.portfolio-template .google {
+  position: relative;
+  align-self: stretch;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 15px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.portfolio-template .testimonial-card-2 {
+  display: flex;
+  flex-direction: column;
+  width: 394px;
+  height: 567px;
+  align-items: flex-start;
+  gap: 68px;
+  padding: 42px;
+  position: relative;
+  background-color: #fffcf5;
+  border: 1px solid;
+  border-color: #ffd285;
+}
+
+.portfolio-template .gemma-nolen {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--subtitle-font-family);
+  font-weight: var(--subtitle-font-weight);
+  color: #2d2d2d;
+  font-size: var(--subtitle-font-size);
+  letter-spacing: var(--subtitle-letter-spacing);
+  line-height: var(--subtitle-line-height);
+  font-style: var(--subtitle-font-style);
+}
+
+.portfolio-template .client-image-info-2 {
   display: flex;
   align-items: flex-start;
   gap: 16px;
@@ -35,53 +330,118 @@
   margin-bottom: -32px;
 }
 
-.testimonial-card .client-image {
-  position: relative;
-  width: 50px;
-  height: 50px;
-  object-fit: cover;
-}
-
-.testimonial-card .client-info-stars {
+.portfolio-template .header-content-wrapper {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 11px;
-  position: relative;
-  flex: 1;
-  flex-grow: 1;
-}
-
-.testimonial-card .name-company {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  flex-wrap: wrap;
+  height: 270px;
+  align-items: center;
+  gap: 68px 42px;
+  padding: 42px 24px;
   position: relative;
   align-self: stretch;
   width: 100%;
-  flex: 0 0 auto;
+  background-color: #ffffff;
 }
 
-.testimonial-card .gemma-nolen {
+.portfolio-template .header-content-2 {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 620px;
+  height: 268px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 48px;
+  padding: 7px 0px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+  margin-top: -41px;
+  margin-bottom: -41px;
+}
+
+.portfolio-template .title-subtitle-2 {
+  display: flex;
+  flex-direction: column;
+  height: 126px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.portfolio-template .text-wrapper-6 {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
-  font-family: var(--subtitle-font-family);
-  font-weight: var(--subtitle-font-weight);
-  color: var(--black);
-  font-size: var(--subtitle-font-size);
-  letter-spacing: var(--subtitle-letter-spacing);
-  line-height: var(--subtitle-line-height);
-  font-style: var(--subtitle-font-style);
+  font-family: "Epilogue", Helvetica;
+  font-weight: 600;
+  color: #2d2d2d;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
-.testimonial-card .google {
+.portfolio-template .p {
   position: relative;
   align-self: stretch;
   font-family: "Epilogue", Helvetica;
   font-weight: 400;
   color: var(--black);
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 0;
   line-height: 27px;
+}
+
+.portfolio-template .testimonial-section {
+  position: relative;
+  width: 1280px;
+  height: 9px;
+  background-color: var(--white);
+}
+
+.portfolio-template .frame-wrapper {
+  height: 89px;
+  overflow: hidden;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--white);
+}
+
+.portfolio-template .frame {
+  width: 72px;
+  top: 19px;
+  left: 35px;
+  position: relative;
+  height: 90px;
+}
+
+.portfolio-template .linked-in-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 99px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  top: -20px;
+  left: -27px;
+  position: relative;
+  height: 90px;
+}
+
+.portfolio-template .linked-in {
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  height: 89px;
+}
+
+.portfolio-template .testimonial-section-2 {
+  height: 38px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  background-color: var(--white);
 }
