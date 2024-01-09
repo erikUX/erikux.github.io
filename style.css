@@ -1,8 +1,7 @@
 .portfolio-template {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  align-items: center;
+  align-items: flex-start;
   position: relative;
   background-color: #ffffff;
 }
@@ -118,16 +117,13 @@
   gap: 42px;
   padding: 42px 24px;
   position: relative;
-  flex: 1;
   align-self: stretch;
   width: 100%;
-  flex-grow: 1;
+  flex: 0 0 auto;
   background-color: var(--white);
 }
 
 .portfolio-template .text-wrapper-3 {
-  position: relative;
-  align-self: stretch;
   height: 42px;
   margin-top: -1px;
   font-family: "Epilogue", Helvetica;
@@ -137,18 +133,19 @@
   letter-spacing: 0;
   line-height: 42px;
   white-space: nowrap;
+  position: relative;
+  align-self: stretch;
 }
 
 .portfolio-template .cards-section {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 24px 24px;
+  gap: 24px 48px;
   position: relative;
-  flex: 1;
   align-self: stretch;
   width: 100%;
-  flex-grow: 1;
+  flex: 0 0 auto;
 }
 
 .portfolio-template .div-3 {
@@ -161,11 +158,11 @@
 }
 
 .portfolio-template .image {
+  height: 330px;
+  object-fit: cover;
   position: relative;
   align-self: stretch;
   width: 100%;
-  height: 330px;
-  object-fit: cover;
 }
 
 .portfolio-template .title-description {
@@ -203,9 +200,14 @@
   line-height: 27px;
 }
 
-.portfolio-template .text-wrapper-5 {
+.portfolio-template .img {
+  height: 330px;
   position: relative;
   align-self: stretch;
+  width: 100%;
+}
+
+.portfolio-template .text-wrapper-5 {
   height: 42px;
   margin-top: -1px;
   font-family: var(--h2-font-family);
@@ -215,7 +217,20 @@
   letter-spacing: var(--h2-letter-spacing);
   line-height: var(--h2-line-height);
   white-space: nowrap;
+  position: relative;
+  align-self: stretch;
   font-style: var(--h2-font-style);
+}
+
+.portfolio-template .div-4 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 24px 24px;
+  width: 100%;
+  flex: 0 0 auto;
+  position: relative;
+  align-self: stretch;
 }
 
 .portfolio-template .testimonial-card {
@@ -234,6 +249,7 @@
 
 .portfolio-template .this-is-a-template {
   position: relative;
+  flex: 1;
   align-self: stretch;
   margin-top: -1px;
   font-family: "Epilogue", Helvetica;
@@ -292,20 +308,6 @@
   line-height: 27px;
 }
 
-.portfolio-template .testimonial-card-2 {
-  display: flex;
-  flex-direction: column;
-  width: 394px;
-  height: 567px;
-  align-items: flex-start;
-  gap: 68px;
-  padding: 42px;
-  position: relative;
-  background-color: #fffcf5;
-  border: 1px solid;
-  border-color: #ffd285;
-}
-
 .portfolio-template .gemma-nolen {
   position: relative;
   align-self: stretch;
@@ -319,59 +321,263 @@
   font-style: var(--subtitle-font-style);
 }
 
-.portfolio-template .client-image-info-2 {
+.portfolio-template .testimonial-card-2 {
+  width: 395px;
+  justify-content: space-between;
   display: flex;
+  flex-direction: column;
+  height: 567px;
   align-items: flex-start;
-  gap: 16px;
+  padding: 42px;
   position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  margin-bottom: -32px;
+  background-color: #fffcf5;
+  border: 1px solid;
+  border-color: #ffd285;
 }
 
-.portfolio-template .header-content-wrapper {
+.portfolio-template .testimonial-card-3 {
+  width: 394px;
+  gap: 68px;
   display: flex;
-  flex-wrap: wrap;
-  height: 270px;
+  flex-direction: column;
+  height: 567px;
+  align-items: flex-start;
+  padding: 42px;
+  position: relative;
+  background-color: #fffcf5;
+  border: 1px solid;
+  border-color: #ffd285;
+}
+
+.portfolio-template .div-5 {
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 68px 42px;
+  gap: 22px;
   padding: 42px 24px;
   position: relative;
   align-self: stretch;
   width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.portfolio-template .text-wrapper-6 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--h2-font-family);
+  font-weight: var(--h2-font-weight);
+  color: #0596ff;
+  font-size: var(--h2-font-size);
+  letter-spacing: var(--h2-letter-spacing);
+  line-height: var(--h2-line-height);
+  font-style: var(--h2-font-style);
+}
+
+.portfolio-template .component {
+  flex-wrap: wrap;
+  min-width: 320px;
+  gap: 24px 24px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .title-description-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.portfolio-template .p {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: var(--body-text-font-family);
+  font-weight: var(--body-text-font-weight);
+  color: var(--black);
+  font-size: var(--body-text-font-size);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  font-style: var(--body-text-font-style);
+}
+
+.portfolio-template .div-6 {
+  display: flex;
+  flex-direction: column;
+  width: 395px;
+  height: 719px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+}
+
+.portfolio-template .image-2 {
+  height: 719px;
+  object-fit: cover;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.portfolio-template .component-2 {
+  flex-direction: column;
+  min-width: 320px;
+  gap: 24px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .text-wrapper-7 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--body-text-font-family);
+  font-weight: var(--body-text-font-weight);
+  color: var(--black);
+  font-size: var(--body-text-font-size);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  font-style: var(--body-text-font-style);
+}
+
+.portfolio-template .the-current-version {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: var(--body-text-font-family);
+  font-weight: var(--body-text-font-weight);
+  color: transparent;
+  font-size: var(--body-text-font-size);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  font-style: var(--body-text-font-style);
+}
+
+.portfolio-template .span {
+  color: #2d2d2d;
+  font-family: var(--body-text-font-family);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  font-size: var(--body-text-font-size);
+}
+
+.portfolio-template .text-wrapper-8 {
+  color: #0596ff;
+  text-decoration: underline;
+  font-family: var(--body-text-font-family);
+  font-style: var(--body-text-font-style);
+  font-weight: var(--body-text-font-weight);
+  letter-spacing: var(--body-text-letter-spacing);
+  line-height: var(--body-text-line-height);
+  font-size: var(--body-text-font-size);
+}
+
+.portfolio-template .image-3 {
+  height: 719px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.portfolio-template .result-AR-software {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 17px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.portfolio-template .text-wrapper-9 {
+  color: #0596ff;
+  text-decoration: underline;
+}
+
+.portfolio-template .serious-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 22px;
+  padding: 42px 24px 124px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+}
+
+.portfolio-template .div-7 {
+  display: flex;
+  flex-direction: column;
+  width: 395px;
+  height: 636px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+}
+
+.portfolio-template .image-4 {
+  height: 719px;
+  margin-bottom: -83px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.portfolio-template .contact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 68px 42px;
+  padding: 20px 24px 0px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
   background-color: #ffffff;
 }
 
 .portfolio-template .header-content-2 {
   display: flex;
   flex-direction: column;
-  min-width: 320px;
-  max-width: 620px;
-  height: 268px;
   align-items: flex-start;
   justify-content: center;
-  gap: 48px;
+  gap: 20px;
   padding: 7px 0px;
   position: relative;
   flex: 1;
   flex-grow: 1;
-  margin-top: -41px;
-  margin-bottom: -41px;
 }
 
 .portfolio-template .title-subtitle-2 {
   display: flex;
   flex-direction: column;
-  height: 126px;
   align-items: flex-start;
-  gap: 24px;
+  gap: 16px;
   position: relative;
   align-self: stretch;
   width: 100%;
+  flex: 0 0 auto;
 }
 
-.portfolio-template .text-wrapper-6 {
+.portfolio-template .text-wrapper-10 {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
@@ -383,7 +589,7 @@
   line-height: normal;
 }
 
-.portfolio-template .p {
+.portfolio-template .text-wrapper-11 {
   position: relative;
   align-self: stretch;
   font-family: "Epilogue", Helvetica;
@@ -394,20 +600,20 @@
   line-height: 27px;
 }
 
-.portfolio-template .testimonial-section {
-  position: relative;
+.portfolio-template .tussenruimte {
   width: 1280px;
   height: 9px;
+  position: relative;
   background-color: var(--white);
 }
 
-.portfolio-template .frame-wrapper {
-  height: 89px;
-  overflow: hidden;
+.portfolio-template .linked-in {
   position: relative;
   align-self: stretch;
   width: 100%;
+  height: 89px;
   background-color: var(--white);
+  overflow: hidden;
 }
 
 .portfolio-template .frame {
@@ -431,17 +637,17 @@
   height: 90px;
 }
 
-.portfolio-template .linked-in {
+.portfolio-template .linked-in-2 {
   position: relative;
   align-self: stretch;
   width: 100%;
   height: 89px;
 }
 
-.portfolio-template .testimonial-section-2 {
-  height: 38px;
-  position: relative;
+.portfolio-template .tussenruimte-2 {
   align-self: stretch;
   width: 100%;
+  height: 38px;
+  position: relative;
   background-color: var(--white);
 }
