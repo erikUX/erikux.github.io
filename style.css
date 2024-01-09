@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 47px 42px;
-  padding: 42px 24px;
+  padding: 42px 20px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -82,7 +82,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 24px 64px;
+  padding: 20px 64px;
   position: relative;
   flex: 0 0 auto;
   background-color: #0596ff;
@@ -114,7 +114,7 @@
   flex-direction: column;
   align-items: center;
   gap: 42px;
-  padding: 42px 24px;
+  padding: 42px 20px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -378,7 +378,7 @@
   flex-direction: column;
   align-items: center;
   gap: 22px;
-  padding: 42px 24px;
+  padding: 42px 20px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -549,7 +549,7 @@
   flex-direction: column;
   align-items: center;
   gap: 22px;
-  padding: 42px 24px 124px;
+  padding: 42px 20px 124px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -580,7 +580,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 68px 42px;
-  padding: 20px 24px 0px;
+  padding: 20px 20px 0px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -639,7 +639,7 @@
   align-items: center;
   justify-content: center;
   gap: 10px;
-  padding: 24px 64px;
+  padding: 20px 64px;
   position: relative;
   flex: 0 0 auto;
   background-color: #0596ff;
