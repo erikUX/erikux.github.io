@@ -4,13 +4,14 @@
   align-items: flex-start;
   position: relative;
   background-color: #ffffff;
+  overflow-x: hidden;
 }
 
 .portfolio-template .header-section {
   flex-wrap: wrap;
   align-items: center;
   gap: 47px 42px;
-  padding: 42px 24px;
+  padding: 42px 24px 42px 20px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
@@ -78,7 +79,7 @@
 
 .portfolio-template .button {
   display: flex;
-  width: 255px;
+  width: 230px;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -105,8 +106,8 @@
 
 .portfolio-template .headerimage {
   position: relative;
-  width: 256px;
-  height: 360px;
+  width: 228px;
+  height: 351px;
 }
 
 .portfolio-template .div-2 {
@@ -114,7 +115,7 @@
   flex-direction: column;
   align-items: center;
   gap: 42px;
-  padding: 42px 24px;
+  padding: 42px 24px 42px 20px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -134,22 +135,22 @@
   line-height: 42px;
 }
 
-.portfolio-template .div-3 {
+.portfolio-template .cards-section {
+  display: flex;
   flex-wrap: wrap;
-  gap: 24px 24px;
+  align-items: flex-start;
+  gap: 20px 20px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  display: flex;
-  align-items: flex-start;
-  position: relative;
 }
 
-.portfolio-template .div-4 {
+.portfolio-template .div-3 {
   display: flex;
   flex-direction: column;
-  width: 383px;
-  height: 419px;
+  width: 384px;
+  height: 404px;
   align-items: flex-start;
   gap: 24px;
   position: relative;
@@ -165,6 +166,7 @@
 
 .portfolio-template .title-description {
   gap: 8px;
+  margin-bottom: -15px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -199,6 +201,16 @@
   font-style: var(--body-text-font-style);
 }
 
+.portfolio-template .component {
+  width: 382px;
+  height: 404px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+}
+
 .portfolio-template .text-wrapper-6 {
   position: relative;
   align-self: stretch;
@@ -211,11 +223,43 @@
   font-style: var(--body-text-font-style);
 }
 
-.portfolio-template .component {
+.portfolio-template .component-2 {
+  flex-direction: column;
+  width: 384px;
+  height: 405px;
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .title-description-2 {
+  flex-direction: column;
+  gap: 8px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-bottom: -14px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .component-3 {
+  flex-direction: column;
+  width: 382px;
+  height: 405px;
+  gap: 24px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .component-4 {
   display: flex;
   flex-direction: column;
-  width: 394.67px;
-  height: 419px;
+  width: 395px;
+  height: 404px;
   align-items: flex-start;
   gap: 24px;
   position: relative;
@@ -373,12 +417,12 @@
   border-color: #ffd285;
 }
 
-.portfolio-template .div-5 {
+.portfolio-template .div-4 {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 22px;
-  padding: 42px 24px;
+  padding: 42px 24px 42px 20px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -399,7 +443,7 @@
   font-style: var(--h2-font-style);
 }
 
-.portfolio-template .component-2 {
+.portfolio-template .component-5 {
   flex-wrap: wrap;
   min-width: 320px;
   gap: 24px 24px;
@@ -411,14 +455,14 @@
   position: relative;
 }
 
-.portfolio-template .title-description-2 {
-  display: flex;
+.portfolio-template .title-description-3 {
   flex-direction: column;
-  align-items: flex-start;
   gap: 8px;
-  position: relative;
   flex: 1;
   flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
 }
 
 .portfolio-template .p {
@@ -434,7 +478,7 @@
   font-style: var(--body-text-font-style);
 }
 
-.portfolio-template .div-6 {
+.portfolio-template .div-5 {
   display: flex;
   flex-direction: column;
   width: 383px;
@@ -452,7 +496,7 @@
   width: 100%;
 }
 
-.portfolio-template .component-3 {
+.portfolio-template .component-6 {
   flex-direction: column;
   width: 384px;
   height: 719px;
@@ -462,12 +506,23 @@
   position: relative;
 }
 
-.portfolio-template .component-4 {
+.portfolio-template .component-7 {
   flex-direction: column;
   min-width: 320px;
   gap: 24px;
   flex: 1;
   flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .div-wrapper {
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
   display: flex;
   align-items: flex-start;
   position: relative;
@@ -486,7 +541,7 @@
   font-style: var(--body-text-font-style);
 }
 
-.portfolio-template .download-the-current {
+.portfolio-template .current-version {
   position: relative;
   flex: 1;
   margin-top: -1px;
@@ -549,21 +604,21 @@
   flex-direction: column;
   align-items: center;
   gap: 22px;
-  padding: 42px 24px 124px;
-  position: relative;
-  align-self: stretch;
+  padding: 42px 24px 124px 20px;
   width: 100%;
   flex: 0 0 auto;
   background-color: #ffffff;
+  position: relative;
+  align-self: stretch;
 }
 
-.portfolio-template .div-7 {
+.portfolio-template .div-6 {
+  display: flex;
   flex-direction: column;
   width: 383px;
   height: 636px;
-  gap: 24px;
-  display: flex;
   align-items: flex-start;
+  gap: 24px;
   position: relative;
 }
 
@@ -580,7 +635,7 @@
   flex-wrap: wrap;
   align-items: center;
   gap: 68px 42px;
-  padding: 20px 24px 0px;
+  padding: 20px 24px 0px 20px;
   position: relative;
   align-self: stretch;
   width: 100%;
@@ -634,21 +689,10 @@
   line-height: 27px;
 }
 
-.portfolio-template .div-wrapper {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  padding: 24px 64px;
-  position: relative;
-  flex: 0 0 auto;
-  background-color: #0596ff;
-  border-radius: 10px;
-}
-
 .portfolio-template .tussenruimte {
   width: 1280px;
   height: 9px;
+  margin-right: -23px;
   position: relative;
   background-color: var(--white);
 }
@@ -665,7 +709,7 @@
 .portfolio-template .frame {
   width: 72px;
   top: 19px;
-  left: 35px;
+  left: 32px;
   position: relative;
   height: 90px;
 }
