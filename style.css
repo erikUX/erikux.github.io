@@ -1,33 +1,47 @@
 .portfolio-template {
   display: flex;
   flex-direction: column;
+  height: 11541px;
   align-items: flex-start;
   position: relative;
   background-color: #ffffff;
-  overflow-x: hidden;
 }
 
-.portfolio-template .header-section {
+.portfolio-template .header-container {
+  display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 47px 42px;
-  padding: 42px 24px 42px 20px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 47px 47px;
+  padding: 42px 24px 60px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  background-color: #ffffff;
-  display: flex;
-  position: relative;
 }
 
 .portfolio-template .header-content {
-  flex-direction: column;
-  max-width: 620px;
-  width: 516px;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 48px;
+  width: 1236px;
+  gap: 20px 20px;
+  padding: 42px 10px;
+  margin-left: -13.5px;
+  margin-right: -13.5px;
+  background-color: #ffffff;
   display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .div {
+  flex-direction: column;
+  min-width: 320px;
+  max-width: 620px;
+  gap: 48px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
   position: relative;
 }
 
@@ -66,9 +80,21 @@
   font-style: var(--h1-font-style);
 }
 
-.portfolio-template .div {
+.portfolio-template .frame {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 10px 10px;
   position: relative;
   align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.portfolio-template .p {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
   font-family: "Epilogue", Helvetica;
   font-weight: 400;
   color: var(--black);
@@ -77,9 +103,9 @@
   line-height: 27px;
 }
 
-.portfolio-template .button {
+.portfolio-template .contactknop {
   display: flex;
-  width: 230px;
+  width: 185px;
   align-items: center;
   justify-content: center;
   gap: 10px;
@@ -94,6 +120,8 @@
   position: relative;
   width: fit-content;
   margin-top: -1px;
+  margin-left: -13px;
+  margin-right: -13px;
   font-family: "Epilogue", Helvetica;
   font-weight: 600;
   color: var(--white);
@@ -104,55 +132,104 @@
   white-space: nowrap;
 }
 
-.portfolio-template .headerimage {
+.portfolio-template .pasfoto {
   position: relative;
-  width: 228px;
-  height: 351px;
+  width: 185px;
+  height: 269px;
 }
 
-.portfolio-template .div-2 {
+.portfolio-template .header-container-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 42px;
-  padding: 42px 24px 42px 20px;
+  align-items: flex-start;
+  gap: 10px;
   position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  background-color: var(--white);
+}
+
+.portfolio-template .header-content-wrapper {
+  justify-content: center;
+  gap: 10px 10px;
+  padding: 10px 0px;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .title-subtitle-wrapper {
+  flex-wrap: wrap;
+  width: 1257px;
+  justify-content: center;
+  gap: 24px 24px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .div-wrapper {
+  flex-wrap: wrap;
+  gap: 24px 24px;
+  flex: 1;
+  flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
 }
 
 .portfolio-template .text-wrapper-3 {
   position: relative;
-  align-self: stretch;
+  flex: 1;
   margin-top: -1px;
   font-family: "Epilogue", Helvetica;
   font-weight: 600;
   color: #2d2d2d;
   font-size: 32px;
   letter-spacing: 0;
-  line-height: 42px;
+  line-height: 30px;
 }
 
-.portfolio-template .cards-section {
-  display: flex;
+.portfolio-template .gallery-header {
   flex-wrap: wrap;
-  align-items: flex-start;
-  gap: 20px 20px;
-  position: relative;
+  justify-content: center;
+  gap: 42px 0px;
+  padding: 20px 20px 100px;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #ffd285;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
 }
 
-.portfolio-template .div-3 {
+.portfolio-template .header-content-2 {
+  flex-wrap: wrap;
+  width: 1257px;
+  gap: 20px 20px;
+  padding: 0px 0px 0px 20px;
+  margin-left: -20px;
+  margin-right: -20px;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .div-2 {
+  width: 384px;
   display: flex;
   flex-direction: column;
-  width: 384px;
-  height: 404px;
+  height: 420px;
   align-items: flex-start;
-  gap: 24px;
+  gap: 15px;
   position: relative;
 }
 
@@ -164,16 +241,14 @@
   width: 100%;
 }
 
-.portfolio-template .title-description {
-  gap: 8px;
-  margin-bottom: -15px;
-  display: flex;
+.portfolio-template .div-3 {
   flex-direction: column;
-  align-items: flex-start;
-  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
 }
 
 .portfolio-template .text-wrapper-4 {
@@ -201,67 +276,35 @@
   font-style: var(--body-text-font-style);
 }
 
-.portfolio-template .component {
-  width: 382px;
-  height: 404px;
+.portfolio-template .div-4 {
+  width: 383px;
   display: flex;
   flex-direction: column;
+  height: 420px;
   align-items: flex-start;
-  gap: 24px;
+  gap: 15px;
   position: relative;
 }
 
 .portfolio-template .text-wrapper-6 {
-  position: relative;
-  align-self: stretch;
   font-family: var(--body-text-font-family);
   font-weight: var(--body-text-font-weight);
   color: var(--black);
   font-size: var(--body-text-font-size);
   letter-spacing: var(--body-text-letter-spacing);
   line-height: var(--body-text-line-height);
+  position: relative;
+  align-self: stretch;
   font-style: var(--body-text-font-style);
 }
 
-.portfolio-template .component-2 {
-  flex-direction: column;
-  width: 384px;
-  height: 405px;
-  gap: 24px;
-  display: flex;
-  align-items: flex-start;
-  position: relative;
-}
-
-.portfolio-template .title-description-2 {
-  flex-direction: column;
-  gap: 8px;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  margin-bottom: -14px;
-  display: flex;
-  align-items: flex-start;
-  position: relative;
-}
-
-.portfolio-template .component-3 {
-  flex-direction: column;
+.portfolio-template .div-5 {
   width: 382px;
-  height: 405px;
-  gap: 24px;
-  display: flex;
-  align-items: flex-start;
-  position: relative;
-}
-
-.portfolio-template .component-4 {
   display: flex;
   flex-direction: column;
-  width: 395px;
-  height: 404px;
+  height: 420px;
   align-items: flex-start;
-  gap: 24px;
+  gap: 15px;
   position: relative;
 }
 
@@ -272,36 +315,73 @@
   width: 100%;
 }
 
-.portfolio-template .text-wrapper-7 {
+.portfolio-template .header-content-3 {
+  flex-wrap: wrap;
+  width: 1257px;
+  justify-content: center;
+  gap: 0px 0px;
+  padding: 0px 20px;
+  display: flex;
+  align-items: flex-start;
   position: relative;
+}
+
+.portfolio-template .testimonial-section {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 42px 42px;
+  padding: 0px 24px 80px 20px;
   align-self: stretch;
-  height: 42px;
-  margin-top: -1px;
-  font-family: var(--h2-font-family);
-  font-weight: var(--h2-font-weight);
-  color: var(--black);
-  font-size: var(--h2-font-size);
-  letter-spacing: var(--h2-letter-spacing);
-  line-height: var(--h2-line-height);
-  white-space: nowrap;
-  font-style: var(--h2-font-style);
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: var(--white);
+  overflow: hidden;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #ffd285;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .testimonial {
+  flex-wrap: wrap;
+  width: 1257px;
+  gap: 42px 42px;
+  padding: 20px 0px 42px 20px;
+  margin-left: -22px;
+  margin-right: -22px;
+  background-color: var(--white);
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+}
+
+.portfolio-template .cards-section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 20px 20px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
 }
 
 .portfolio-template .testimonial-card {
-  display: flex;
   flex-direction: column;
   width: 383px;
   height: 567px;
-  align-items: flex-start;
   gap: 68px;
   padding: 42px;
-  position: relative;
   background-color: #fffcf5;
   border: 1px solid;
   border-color: #ffd285;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
 }
 
-.portfolio-template .this-is-a-template {
+.portfolio-template .text-wrapper-7 {
   position: relative;
   flex: 1;
   align-self: stretch;
@@ -341,17 +421,7 @@
   flex-grow: 1;
 }
 
-.portfolio-template .name-company {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-}
-
-.portfolio-template .google {
+.portfolio-template .text-wrapper-8 {
   position: relative;
   align-self: stretch;
   font-family: "Epilogue", Helvetica;
@@ -376,7 +446,17 @@
   border-color: #ffd285;
 }
 
-.portfolio-template .gemma-nolen {
+.portfolio-template .client-image-info-2 {
+  display: flex;
+  width: 304px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-right: -4px;
+}
+
+.portfolio-template .text-wrapper-9 {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
@@ -417,22 +497,21 @@
   border-color: #ffd285;
 }
 
-.portfolio-template .div-4 {
+.portfolio-template .header-container-wrapper-2 {
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  gap: 22px;
-  padding: 42px 24px 42px 20px;
+  align-items: flex-start;
+  gap: 10px;
   position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  background-color: #ffffff;
 }
 
-.portfolio-template .text-wrapper-8 {
+.portfolio-template .text-wrapper-10 {
   position: relative;
-  align-self: stretch;
+  flex: 1;
   margin-top: -1px;
   font-family: var(--h2-font-family);
   font-weight: var(--h2-font-weight);
@@ -443,48 +522,53 @@
   font-style: var(--h2-font-style);
 }
 
-.portfolio-template .component-5 {
+.portfolio-template .text-wrapper-11 {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Epilogue", Helvetica;
+  font-weight: 400;
+  color: var(--black);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 27px;
+}
+
+.portfolio-template .chatbot-wrapper {
+  display: flex;
   flex-wrap: wrap;
-  min-width: 320px;
-  gap: 24px 24px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 22px 22px;
+  padding: 0px 24px 42px 20px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.portfolio-template .chatbot {
   display: flex;
+  flex-wrap: wrap;
+  width: 1255px;
   align-items: flex-start;
+  gap: 22px 22px;
+  padding: 24px 0px 0px 20px;
   position: relative;
+  margin-left: -21px;
+  margin-right: -21px;
+  background-color: #ffffff;
 }
 
-.portfolio-template .title-description-3 {
-  flex-direction: column;
-  gap: 8px;
-  flex: 1;
-  flex-grow: 1;
-  display: flex;
-  align-items: flex-start;
-  position: relative;
-}
-
-.portfolio-template .p {
-  position: relative;
-  align-self: stretch;
-  margin-top: -1px;
-  font-family: var(--body-text-font-family);
-  font-weight: var(--body-text-font-weight);
-  color: var(--black);
-  font-size: var(--body-text-font-size);
-  letter-spacing: var(--body-text-letter-spacing);
-  line-height: var(--body-text-line-height);
-  font-style: var(--body-text-font-style);
-}
-
-.portfolio-template .div-5 {
-  display: flex;
+.portfolio-template .div-6 {
   flex-direction: column;
   width: 383px;
   height: 719px;
-  align-items: flex-start;
   gap: 24px;
+  display: flex;
+  align-items: flex-start;
   position: relative;
 }
 
@@ -496,83 +580,94 @@
   width: 100%;
 }
 
-.portfolio-template .component-6 {
-  flex-direction: column;
+.portfolio-template .component {
   width: 384px;
-  height: 719px;
-  gap: 24px;
   display: flex;
-  align-items: flex-start;
-  position: relative;
-}
-
-.portfolio-template .component-7 {
   flex-direction: column;
-  min-width: 320px;
-  gap: 24px;
-  flex: 1;
-  flex-grow: 1;
-  display: flex;
+  height: 719px;
   align-items: flex-start;
+  gap: 24px;
   position: relative;
 }
 
-.portfolio-template .div-wrapper {
-  flex-wrap: wrap;
-  gap: 24px 24px;
+.portfolio-template .chatbot-result {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0px 0px 100px;
+  position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #ffd285;
+  opacity: 0.8;
+}
+
+.portfolio-template .ING {
   display: flex;
+  flex-wrap: wrap;
   align-items: flex-start;
+  justify-content: center;
+  gap: 22px 22px;
+  padding: 0px 24px 24px 20px;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
+  overflow: hidden;
   position: relative;
+  align-self: stretch;
 }
 
-.portfolio-template .text-wrapper-9 {
+.portfolio-template .header-container-wrapper-3 {
+  padding: 0px 0px 100px;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #ffd285;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.portfolio-template .div-7 {
   position: relative;
   flex: 1;
   margin-top: -1px;
-  font-family: var(--body-text-font-family);
-  font-weight: var(--body-text-font-weight);
-  color: var(--black);
-  font-size: var(--body-text-font-size);
-  letter-spacing: var(--body-text-letter-spacing);
-  line-height: var(--body-text-line-height);
-  font-style: var(--body-text-font-style);
-}
-
-.portfolio-template .current-version {
-  position: relative;
-  flex: 1;
-  margin-top: -1px;
-  font-family: var(--body-text-font-family);
-  font-weight: var(--body-text-font-weight);
+  font-family: "Epilogue", Helvetica;
+  font-weight: 400;
   color: transparent;
-  font-size: var(--body-text-font-size);
-  letter-spacing: var(--body-text-letter-spacing);
-  line-height: var(--body-text-line-height);
-  font-style: var(--body-text-font-style);
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: 27px;
 }
 
 .portfolio-template .span {
   color: #2d2d2d;
-  font-family: var(--body-text-font-family);
-  font-style: var(--body-text-font-style);
-  font-weight: var(--body-text-font-weight);
-  letter-spacing: var(--body-text-letter-spacing);
-  line-height: var(--body-text-line-height);
-  font-size: var(--body-text-font-size);
 }
 
-.portfolio-template .text-wrapper-10 {
+.portfolio-template .text-wrapper-12 {
   color: #0596ff;
   text-decoration: underline;
-  font-family: var(--body-text-font-family);
-  font-style: var(--body-text-font-style);
-  font-weight: var(--body-text-font-weight);
-  letter-spacing: var(--body-text-letter-spacing);
-  line-height: var(--body-text-line-height);
-  font-size: var(--body-text-font-size);
+}
+
+.portfolio-template .KPN-web-app {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--h2-font-family);
+  font-weight: var(--h2-font-weight);
+  color: #0596ff;
+  font-size: var(--h2-font-size);
+  letter-spacing: var(--h2-letter-spacing);
+  line-height: var(--h2-line-height);
+  font-style: var(--h2-font-style);
 }
 
 .portfolio-template .image-3 {
@@ -582,91 +677,121 @@
   width: 100%;
 }
 
-.portfolio-template .result-AR-software {
+.portfolio-template .cards-section-2 {
+  display: flex;
+  flex-wrap: wrap;
+  height: 614px;
+  align-items: flex-start;
+  gap: 20px 20px;
   position: relative;
   flex: 1;
-  margin-top: -1px;
-  font-family: "Epilogue", Helvetica;
-  font-weight: 400;
-  color: transparent;
-  font-size: 17px;
-  letter-spacing: 0;
-  line-height: 27px;
+  flex-grow: 1;
 }
 
-.portfolio-template .text-wrapper-11 {
-  color: #0596ff;
-  text-decoration: underline;
-}
-
-.portfolio-template .serious-game {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 22px;
-  padding: 42px 24px 124px 20px;
-  width: 100%;
-  flex: 0 0 auto;
-  background-color: #ffffff;
-  position: relative;
-  align-self: stretch;
-}
-
-.portfolio-template .div-6 {
+.portfolio-template .gallery-card {
+  height: 667px;
+  margin-bottom: -53px;
   display: flex;
   flex-direction: column;
   width: 383px;
-  height: 636px;
   align-items: flex-start;
   gap: 24px;
   position: relative;
 }
 
 .portfolio-template .image-4 {
-  height: 719px;
-  margin-bottom: -83px;
+  height: 614px;
   position: relative;
   align-self: stretch;
   width: 100%;
 }
 
-.portfolio-template .contact {
+.portfolio-template .component-2 {
+  display: flex;
+  flex-direction: column;
+  width: 384px;
+  height: 719px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+  margin-bottom: -105px;
+}
+
+.portfolio-template .component-3 {
+  margin-bottom: -105px;
+  display: flex;
+  flex-direction: column;
+  width: 383px;
+  height: 719px;
+  align-items: flex-start;
+  gap: 24px;
+  position: relative;
+}
+
+.portfolio-template .image-5 {
+  height: 612.8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.portfolio-template .SNS-result {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 0px 0px 100px;
+  width: 100%;
+  flex: 0 0 auto;
+  position: relative;
+  align-self: stretch;
+}
+
+.portfolio-template .footer {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  gap: 68px 42px;
-  padding: 20px 24px 0px 20px;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 47px 47px;
+  padding: 42px 24px;
   position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  background-color: #ffffff;
+  margin-bottom: -63px;
+  background-color: transparent;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-right-style: none;
+  border-bottom-style: none;
+  border-left-style: none;
+  border-color: #ffd285;
 }
 
-.portfolio-template .header-content-2 {
-  display: flex;
+.portfolio-template .header-content-4 {
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 20px;
-  padding: 7px 0px;
-  position: relative;
+  min-width: 320px;
+  max-width: 620px;
+  gap: 25px;
   flex: 1;
   flex-grow: 1;
+  display: flex;
+  align-items: flex-start;
+  position: relative;
 }
 
 .portfolio-template .title-subtitle-2 {
+  gap: 15px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 16px;
   position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
 }
 
-.portfolio-template .text-wrapper-12 {
+.portfolio-template .text-wrapper-13 {
   position: relative;
   align-self: stretch;
   margin-top: -1px;
@@ -675,69 +800,12 @@
   color: #2d2d2d;
   font-size: 32px;
   letter-spacing: 0;
-  line-height: normal;
+  line-height: 30px;
 }
 
-.portfolio-template .text-wrapper-13 {
+.portfolio-template .linkedin {
   position: relative;
-  align-self: stretch;
-  font-family: "Epilogue", Helvetica;
-  font-weight: 400;
-  color: var(--black);
-  font-size: 20px;
-  letter-spacing: 0;
-  line-height: 27px;
-}
-
-.portfolio-template .tussenruimte {
-  width: 1280px;
-  height: 9px;
-  margin-right: -23px;
-  position: relative;
-  background-color: var(--white);
-}
-
-.portfolio-template .linked-in {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 89px;
-  background-color: var(--white);
-  overflow: hidden;
-}
-
-.portfolio-template .frame {
-  width: 72px;
-  top: 19px;
-  left: 32px;
-  position: relative;
-  height: 90px;
-}
-
-.portfolio-template .linked-in-wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 99px;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 10px;
-  top: -20px;
-  left: -27px;
-  position: relative;
-  height: 90px;
-}
-
-.portfolio-template .linked-in-2 {
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  height: 89px;
-}
-
-.portfolio-template .tussenruimte-2 {
-  align-self: stretch;
-  width: 100%;
-  height: 38px;
-  position: relative;
-  background-color: var(--white);
+  width: 78px;
+  height: 78px;
+  object-fit: cover;
 }
