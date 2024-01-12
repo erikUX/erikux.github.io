@@ -677,23 +677,35 @@
   width: 100%;
 }
 
-.portfolio-template .cards-section-2 {
+.portfolio-template .SNS {
   display: flex;
   flex-wrap: wrap;
-  height: 614px;
   align-items: flex-start;
-  gap: 20px 20px;
+  justify-content: center;
+  gap: 10px 10px;
+  width: 100%;
+  flex: 0 0 auto;
+  background-color: #ffffff;
   position: relative;
-  flex: 1;
-  flex-grow: 1;
+  align-self: stretch;
 }
 
-.portfolio-template .gallery-card {
-  height: 667px;
-  margin-bottom: -53px;
+.portfolio-template .cards-section-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1255px;
+  align-items: flex-start;
+  gap: 22px 22px;
+  padding: 24px 0px 42px 20px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.portfolio-template .div-8 {
   display: flex;
   flex-direction: column;
   width: 383px;
+  height: 614px;
   align-items: flex-start;
   gap: 24px;
   position: relative;
@@ -710,25 +722,21 @@
   display: flex;
   flex-direction: column;
   width: 384px;
-  height: 719px;
-  align-items: flex-start;
-  gap: 24px;
-  position: relative;
-  margin-bottom: -105px;
-}
-
-.portfolio-template .component-3 {
-  margin-bottom: -105px;
-  display: flex;
-  flex-direction: column;
-  width: 383px;
-  height: 719px;
+  height: 614px;
   align-items: flex-start;
   gap: 24px;
   position: relative;
 }
 
 .portfolio-template .image-5 {
+  height: 614.4px;
+  margin-bottom: -0.4px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.portfolio-template .image-6 {
   height: 612.8px;
   position: relative;
   align-self: stretch;
