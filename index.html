@@ -36,49 +36,49 @@
       </div>
       <div class="gallery-header">
         <div class="header-content-2">
-          <div class="vierkant-EC">
+          <div class="vierkant-EC portfolio-button">
             <img class="img" src="img/ecimage.png" />
             <div class="div-2">
               <div class="text-wrapper-3">Chatbot</div>
               <div class="text-wrapper-4">European Commission</div>
             </div>
           </div>
-          <div class="vierkant-ING">
+          <div class="vierkant-ING portfolio-button">
             <img class="img-2" src="img/ingmage.png" />
             <div class="div-2">
               <div class="text-wrapper-3">Digital signage</div>
               <div class="text-wrapper-4">ING</div>
             </div>
           </div>
-          <div class="div-3">
+          <div class="div-3 portfolio-button">
             <img class="img-2" src="img/bzimage.png" />
             <div class="div-2">
               <div class="text-wrapper">Dutch travel app</div>
               <div class="text-wrapper-4">Ministry of Foreign Affairs</div>
             </div>
           </div>
-          <div class="div-3">
+          <div class="div-3 portfolio-button">
             <img class="img-2" src="img/kpnimage.png" />
             <div class="div-2">
               <p class="text-wrapper">Callcenter &amp; retail web app</p>
               <div class="text-wrapper-4">KPN</div>
             </div>
           </div>
-          <div class="vierkant-AIR">
+          <div class="vierkant-AIR portfolio-button">
             <img class="img-2" src="img/airimage.png" />
             <div class="div-2">
               <div class="text-wrapper-3">AR/VR at the workplace</div>
               <div class="text-wrapper-4">AIR</div>
             </div>
           </div>
-          <div class="div-3">
+          <div class="div-3 portfolio-button">
             <img class="img-2" src="img/ckimage.png" />
             <div class="div-2">
               <div class="text-wrapper">Gamification health</div>
               <div class="text-wrapper-4">ChangeKitchen</div>
             </div>
           </div>
-          <div class="div-3">
+          <div class="div-3 portfolio-button">
             <img class="img" src="img/snsimage.png" />
             <div class="div-2">
               <div class="text-wrapper">Serious Game</div>
@@ -197,7 +197,7 @@
           </div>
         </div>
       </div>
-      <div class="div-wrapper">
+      <div class="div-wrapper portfolio-item">
         <div class="div-wrapper-2">
           <div class="div-wrapper-3">
             <div class="div-wrapper-4">
@@ -238,7 +238,7 @@
           </div>
         </div>
       </div>
-      <div class="div-wrapper">
+      <div class="div-wrapper portfolio-item">
         <div class="div-wrapper-2">
           <div class="div-wrapper-6">
             <div class="div-wrapper-4">
@@ -280,7 +280,7 @@
           </div>
         </div>
       </div>
-      <div class="div-wrapper">
+      <div class="div-wrapper portfolio-item">
         <div class="div-wrapper-2">
           <div class="div-wrapper-6">
             <div class="div-wrapper-4">
@@ -329,7 +329,7 @@
           </div>
         </div>
       </div>
-      <div class="div-wrapper">
+      <div class="div-wrapper portfolio-item">
         <div class="div-wrapper-2">
           <div class="div-wrapper-6">
             <div class="div-wrapper-4">
@@ -372,7 +372,7 @@
           </div>
         </div>
       </div>
-      <div class="div-wrapper">
+      <div class="div-wrapper portfolio-item">
         <div class="div-wrapper-2">
           <div class="div-wrapper-6">
             <div class="div-wrapper-4">
@@ -419,7 +419,7 @@
           </div>
         </div>
       </div>
-      <div class="div-wrapper">
+      <div class="div-wrapper portfolio-item">
         <div class="div-wrapper-2">
           <div class="div-wrapper-6">
             <div class="div-wrapper-4">
@@ -460,7 +460,7 @@
           </div>
         </div>
       </div>
-      <div class="div-wrapper">
+      <div class="div-wrapper portfolio-item">
         <div class="div-wrapper-2">
           <div class="div-wrapper-6">
             <div class="div-wrapper-4">
@@ -520,6 +520,17 @@
         </div>
       </footer>
     </div>
-    
+    <script>
+      const buttons = Array.prototype.slice.call(document.getElementsByClassName('portfolio-button'))    
+      const anchors = Array.prototype.slice.call(document.getElementsByClassName('portfolio-item'))
+      for (let index = 0; index < buttons.length; index++) {
+        buttons[index].style.cursor = "pointer"
+        buttons[index].onclick = function() {
+          const yOffset = -2; 
+          const y = anchors[index].getBoundingClientRect().top + window.pageYOffset + yOffset;
+          window.scrollTo({top: y, behavior: 'smooth'});
+        }
+      }
+    </script>
   </body>
 </html>
